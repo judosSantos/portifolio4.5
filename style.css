@@ -1,10 +1,26 @@
+:root {
+  --title-color: #8a2e98;
+  --subtitle-color: #6c1f78;
+  --background-color: #fce1dd;
+}
+
+.bg-custom {
+  background-image: url("src/background-strong.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero {
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 96px;
-  color: #8a2e98;
+  color: var(--title-color);
 }
 
 h2 {
@@ -13,7 +29,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
-  color: #6c1f78;
+  color: var(--subtitle-color);
 }
 
 h3 .judson-regular {
@@ -22,6 +38,16 @@ h3 .judson-regular {
   font-style: normal;
 }
 
+.btn-custom {
+  background-color: var(--title-color);
+  color: var(--background-color);
+  border: none;
+  padding: 10px 20px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
 h3 .judson-bold {
   font-family: "Judson", serif;
   font-weight: 700;
