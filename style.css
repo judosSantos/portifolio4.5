@@ -92,3 +92,29 @@ body {
   max-width: 500px;
   line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .text-limit {
+    max-width: 100%;
+    padding: 0 13px;
+  }
+  h3.judson-regular {
+    font-size: 15px;
+    text-align: center;
+  }
+  h4 {
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .btn {
+    font-size: 14px;
+  }
+}
