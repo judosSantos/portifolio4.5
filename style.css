@@ -1,0 +1,35 @@
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 96px;
+  color: #8a2e98;
+}
+
+h2 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  color: #6c1f78;
+}
+
+h3 .judson-regular {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 .judson-bold {
+  font-family: "Judson", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3 .judson-regular-italic {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: italic;
+}
