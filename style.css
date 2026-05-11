@@ -6,6 +6,7 @@
 }
 
 .bg-custom {
+  min-height: 100vh;
   background-image: url("src/background-strong.png");
   background-size: cover;
   background-position: center;
@@ -107,6 +108,13 @@ h3.judson-regular-italic {
 body {
   background-color: #f5f2fe;
 }
+.hero {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 .text-limit {
   max-width: 500px;
@@ -206,10 +214,97 @@ body {
     font-size: 14px;
     text-align: center;
   }
+  .contact-box {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    width: 60%;
+  }
+  .contact-box h4 {
+    font-size: 25px;
+  }
 }
 .a-custom {
   font-family: quicksand, sans-serif;
 }
 .logo {
   max-width: 60px;
+}
+
+footer {
+  padding: 40px 0;
+}
+.contact-box {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 auto 50px;
+  box-shadow: 0 10px 30px rgba(138, 46, 152, 0.08);
+  width: 80%;
+  text-align: center;
+}
+
+.contact-box h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-box p {
+  margin: 0;
+  color: var(--subtitle-color);
+  font-family: "Judson", serif;
+}
+.contact-page {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 40px 20px;
+}
+
+.contact-description {
+  max-width: 600px;
+  font-size: 22px;
+  color: var(--subtitle-color);
+  margin-bottom: 50px;
+  font-family: "Quicksand", sans-serif;
+}
+.email-link {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  color: var(--subtitle-color);
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+.email-link:hover {
+  color: var(--title-color);
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-links a {
+  color: var(--subtitle-color);
+  font-size: 24px;
+  margin: 0 12px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: var(--title-color);
+  transform: translateY(-2px);
 }
