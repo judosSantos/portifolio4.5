@@ -100,11 +100,13 @@ h3.judson-regular-italic {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  &:hover {
-    background-color: var(--subtitle-color);
-    color: var(--background-color);
-  }
 }
+
+.btn-custom:hover {
+  background-color: var(--subtitle-color);
+  color: var(--background-color);
+}
+
 body {
   background-color: #f5f2fe;
 }
@@ -226,6 +228,13 @@ body {
 }
 .a-custom {
   font-family: quicksand, sans-serif;
+}
+.a-custom:hover {
+  color: var(--title-color) !important;
+}
+.a-custom.a-custom:visited {
+  color: var(--subtitle-color);
+  text-decoration: none;
 }
 .logo {
   max-width: 60px;
