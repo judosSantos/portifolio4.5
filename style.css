@@ -31,6 +31,12 @@
   margin-left: 10px;
 }
 
+.nav-link.a-custom.active {
+  font-weight: 900;
+  color: var(--title-color) !important;
+  text-shadow: 0 0 8px rgba(138, 46, 152, 0.15);
+}
+
 .nav-link.a-custom:hover {
   color: var(--title-color) !important;
   transform: translateY(-1px);
