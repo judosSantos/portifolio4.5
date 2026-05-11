@@ -93,9 +93,10 @@ body {
   line-height: 1.6;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   h1 {
     font-size: 56px;
+    text-align: center;
   }
   h2 {
     font-size: 20px;
@@ -117,4 +118,41 @@ body {
   .btn {
     font-size: 14px;
   }
+  .about-me-section {
+    text-align: center;
+    padding: 0;
+  }
+}
+.about-me-section {
+  padding: 150px 40px;
+}
+.about-me-text {
+  max-width: 600px;
+  line-height: 1.6;
+  margin: 40px;
+}
+
+.about-me-section h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 46px;
+  color: var(--title-color);
+}
+.about-me-section h2 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: var(--subtitle-color);
+}
+.about-me-section h4 {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--subtitle-color);
+  font-size: 20px;
+  line-height: 1.6;
 }
