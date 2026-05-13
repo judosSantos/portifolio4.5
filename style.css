@@ -228,6 +228,7 @@ body {
 }
 .a-custom {
   font-family: quicksand, sans-serif;
+  color: var(--subtitle-color);
 }
 .a-custom:hover {
   color: var(--title-color) !important;
